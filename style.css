@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-@font-face {
-    font-family: 'minimalist';
-    src: url('font/gakuran_font.TTF');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap');
 @font-face {
     font-family: "gistesy";
     src: url('Font/gistesy/Gistesy.ttf');
@@ -446,6 +443,8 @@ h1 > .font_gistesy{
     
 }
 
-
+.font_minimalist{
+    font-family: 'Raleway', sans-serif;
+}
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'
 
