@@ -245,6 +245,8 @@ body {
     font-size: 32px;
     font-weight: 700;
     text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
 }
 .contianer {
     display: flex;
@@ -320,7 +322,8 @@ body {
     border: 2px solid #0ef;
     color: #0ef;
     text-decoration: none;
-   
+    justify-content: center;
+    align-items: center;
     transition: .5s ease;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
@@ -337,12 +340,14 @@ body {
 .projects img{
     margin: 2rem;
     border: #1f242d 3px solid;
-
+    border-radius: 20px;
 }
+
 
 .projects:hover{
     box-shadow: 0 0 80px #0ef;
     color: #1f242d;
+    transform: scale(1.5);
 }
 .projects:hover .btn{
     color: #0ef;
@@ -374,18 +379,26 @@ body {
     letter-spacing: 5px;
 }
 
-h1 > .font_pixel{
+h1 > .font_pixel,.font_minimalist{
     font-size: 4rem;
 }
-h1 > .font_gistesy{
+h1 > .font_gistesy,.font_minimalist{
     font-size: 3rem;
 }
+
+
 
 .font_gistesy{
     font-family: 'gistesy';
     color: rgb(73, 199, 208);
     text-transform: capitalize;
     /* letter-spacing: 5px; */
+}
+.font_minimalist{
+    font-family: 'Raleway', sans-serif;
+}
+.font-weight-light{
+    font-weight: 200;
 }
 
 .neonText {
@@ -443,8 +456,6 @@ h1 > .font_gistesy{
     
 }
 
-.font_minimalist{
-    font-family: 'Raleway', sans-serif;
-}
+
 @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'
 
