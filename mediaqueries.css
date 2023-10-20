@@ -29,6 +29,13 @@
   .section-container {
     display: block;
   }
+  #profile .section__pic-container img{ 
+    border-radius: 500px;
+    margin: 2rem;
+    transform: scale(1.4);
+    z-index: -1;
+    /* new code */
+  }
   .arrow {
     display: none;
   }
