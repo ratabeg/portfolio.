@@ -1,7 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;700&display=swap');
 @font-face {
   font-family: "gistesy";
   src: url('Font/gistesy/Gistesy.ttf');
@@ -522,4 +522,9 @@ footer p {
   text-transform: capitalize;
   font-size: 3rem;
  
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans-serif !important;
+
 }
