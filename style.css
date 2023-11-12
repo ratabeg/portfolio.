@@ -528,3 +528,35 @@ footer p {
     font-family: 'Raleway', sans-serif !important;
 
 }
+
+
+@keyframes title {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.7) rotateX(40deg) rotateZ(-3deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px) scale(1) rotateX(0deg) rotateZ(0deg);
+  }
+}
+
+.logo_transition, .popup-animation {
+  animation: title 1s 1;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.animation-delay{
+  animation-delay: 0.6s !important;
+  animation: title 1s 1;
+  animation-delay: 0.3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+.reveal{
+  opacity: 0;
+}
