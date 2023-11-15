@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+  .console {
+    width: 100% !important;
+  }
+}
+.bg-dark {
+  background-color: #0c1034;
+}
+
+.bg-beige {
+  background-color: #0c1034;
+}
+
+.border-color--313460 {
+  border-color: #313460;
+}
+
+.color-red {
+  color: #d835a7;
+}
+
+.color-yellow {
+  color: goldenrod;
+}
+
+.console {
+  width: 55%;
+  height: 60%;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: rgba(12, 16, 52, 0.6);
+  box-shadow: 12px 12px 2px 1px rgba(216, 53, 167, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.console #console-btns {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  height: 25px;
+  width: 100%;
+  background-color: black;
+}
+.console #console-btns div {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  margin-left: 3px;
+  padding: 5px;
+  margin: 4px 5px;
+}
+.console #console-btns div#x-btn {
+  background-color: #d835a7;
+}
+.console #console-btns div#mini-btn {
+  background-color: goldenrod;
+}
+.console #console-btns div#expan-btn {
+  background-color: greenyellow;
+}
+
+#console-code {
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=sass-style.css.map */

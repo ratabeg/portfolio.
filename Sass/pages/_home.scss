@@ -1,0 +1,54 @@
+.console{
+    width: 55%;
+    height: 60%;
+   
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgba($color:  $color-darkmode, $alpha: 0.6);
+    box-shadow: 12px 12px 2px 1px rgba($color:  #d835a7, $alpha: 0.5);
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+    overflow: hidden;
+    position: relative;
+
+    
+    & #console-btns{
+        display: flex;
+        flex-direction: row;
+        width: max-content;
+        height: 25px;
+        width: 100%;
+        background-color: black;
+    }
+
+    & #console-btns div{
+       
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+        margin-left: 3px;
+        padding: 5px;
+        margin: 4px 5px;
+        &#x-btn{
+            background-color: #d835a7;
+        }
+        &#mini-btn{
+            background-color: goldenrod;
+        }
+        &#expan-btn{
+            background-color: greenyellow;
+        }
+        
+        
+    }
+   
+}
+
+#console-code{
+   
+    align-items: center;
+    justify-content: center;
+
+
+}

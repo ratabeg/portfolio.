@@ -1,0 +1,12 @@
+{
+  "name": "portfolio.",
+  "version": "1.0.0",
+  "description": "my Portfollio Website",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "sass Sass/main.scss sass-style.css -w"
+
+  },
+  "author": "Raouf Atabeg",
+  "license": "ISC"
+}

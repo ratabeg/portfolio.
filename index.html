@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Lato&family=Sono:wght@400;600&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sass-style.css">
     <link rel="stylesheet" href="mediaqueries.css" />
 
   </head>
@@ -40,14 +41,29 @@
         </div>
       </div>
     </nav>
-    <section id="profile" class="logo_transition"> 
+    <section id="profile" class="logo_transition" > 
       <div class="section__pic-container ">
 
         <img src="./img/profile-pic.JPG" alt="raouf atabeg profile picture" />
         
 
       </div>
-      <div class="section__text animation-delay">
+
+      <div id="console" class="console border-color--313460"  style="margin: auto;">
+      
+        <div  id="console-btns"style="">
+          <div id="x-btn"></div>
+          <div id="mini-btn"></div>
+          <div id="expan-btn"></div>
+        </div>
+        
+
+        <div id="console-code" style="display: flex; flex-direction:column;  ">
+
+          <!-- <p >console.log(<span class="color-yellow"> 'Hello World' </span>);</p>
+          <p><span class="color-red">const</span> coder =  Name: 'Raouf Atabeg'</p> -->
+      
+       <div class="section__text animation-delay">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Raouf Atabeg</h1>
         <p class="section__text__p2"><span class="multiple-text"></span></p>
@@ -58,9 +74,7 @@
           >
             Download CV
           </button>
-          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button> -->
+        
         </div>
         <div id="socials-container">
           <img
@@ -76,7 +90,8 @@
             onclick="location.href='https://github.com/'"
           />
         </div>
-      </div>
+      </div> 
+    </div>
     </section>
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
